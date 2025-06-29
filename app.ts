@@ -40,20 +40,11 @@ interface User {
   
 //////////////////////////////////////////////////////////////////////////////////////////////////
   
-  interface Dog {
-    bark: boolean;
-  }
-  
-  interface Cat {
-    meow: boolean;
-  }
-  
+  interface Dog { bark: boolean; }
+  interface Cat { meow: boolean; }
   type Pet = Dog & Cat;
   
-  const myPet: Pet = {
-    bark: true,
-    meow: false,
-  };
+  const myPet: Pet = { bark: true, meow: false, };
   
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 

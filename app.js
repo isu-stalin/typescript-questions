@@ -24,10 +24,7 @@ console.log(Days.Monday);
 var statusVar;
 statusVar = "start";
 statusVar = "stop";
-var myPet = {
-    bark: true,
-    meow: false,
-};
+var myPet = { bark: true, meow: false, };
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 function handleValue(value) {
     if (typeof value === "string") {
